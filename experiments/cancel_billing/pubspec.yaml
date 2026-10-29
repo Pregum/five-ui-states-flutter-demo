@@ -1,0 +1,9 @@
+name: cancel_billing
+description: ストリーミング中に中断したとき、OpenAI 側で何トークン生成・課金されるかを確かめる実験。
+publish_to: none
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  http: ^1.2.0
